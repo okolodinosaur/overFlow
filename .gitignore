@@ -100,6 +100,7 @@ dist
 # vuepress build output
 .vuepress/dist
 
+rabbitmq
 # vuepress v2.x temp and cache directory
 .temp
 .cache
@@ -127,4 +128,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+<<<<<<< HEAD
 .pnp.*
+=======
+.pnp.*
+>>>>>>> 445528d (init repo)
