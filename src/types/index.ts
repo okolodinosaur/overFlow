@@ -1,6 +1,10 @@
 export interface IData {
     couple: string;
-    price: string;
-    deltaIn48h?: number;
-    counter?: number;
+    price: number;
+    delta?: IDelta[];
+}
+
+export interface IDelta {
+    amountOfDay: number;
+    value: number;
 }
